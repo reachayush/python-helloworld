@@ -44,4 +44,4 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64
           push: true
-          tags: reachayush/python-helloworld:v1.0.0
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/python-helloworld:v1.0.0
